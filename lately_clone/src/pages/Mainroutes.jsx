@@ -2,7 +2,9 @@ import React from 'react'
 
 const Mainroutes = () => {
   return (
-    <div></div>
+    <div>
+      
+    </div>
   )
 }
 
