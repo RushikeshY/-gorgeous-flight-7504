@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+}
+.ml-1 {
+    margin-left: ($spacer * .25) !important;
+  }
+  .h3{
+    color: white;
+  }
+  #Maintop{
+    width:80%;
+    /* border :1px solid red; */
+    display: flex;
+    text-align: center;
+    margin: auto;
+  }
+  #left{
+    width:20%;
+/* 
+border: 1px solid green; */
+  }
+  #right{
+    width:77%
+  }
+  #live1{
+       width:68%;
+       margin: auto;
+       text-align: center;
+       /* border: 1px solid red; */
+  }
