@@ -1,11 +1,16 @@
 
 import './App.css';
-import Product from './pages/Product/Product';
+import Footer from './components/Footer';
+import Mainroutes from './pages/Mainroutes';
+import Product from './pages/Product/Product'
 
 function App() {
   return (
     <div className="App">
-        <Product/>
+       <Mainroutes/>
+       <Footer/>
+       <Product/>
+
     </div>
   );
 }
