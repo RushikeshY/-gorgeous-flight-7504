@@ -8,8 +8,7 @@ const Payment = () => {
        <Box>
         <h2>Select Your Lately Plan</h2>
         <p  >The world's most human A.I. is waiting for you - start your free <span style={{fontSize:"20px" }}>7-day trial</span> today!</p>
-      
-       </Box>
+      </Box>
        <Box>
         <h2>1. Payment Information</h2>
         <Box>
@@ -17,8 +16,7 @@ const Payment = () => {
         <input type="number" placeholder='Card number' />
         <input type="month" placeholder='' />
         </Box>
-    
-<Box>
+    <Box>
 <Flex >
 <label>Name on Card*</label>
         <br/>
@@ -48,7 +46,8 @@ const Payment = () => {
   />
         
 </Flex>
-</Box>       </Box>
+</Box>  
+     </Box>
        <Box></Box>
        <Box></Box>
        <Box></Box>
