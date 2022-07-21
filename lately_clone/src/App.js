@@ -7,9 +7,9 @@ import {Payment} from "./pages/Payment/Payment"
 function App() {
   return (
     <div className="App">
-       {/* <Mainroutes/>
+       <Mainroutes/>
        <Footer/>
-       <Product/> */}
+       <Product/>
        <Payment/>
 
     </div>
