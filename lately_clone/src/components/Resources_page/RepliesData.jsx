@@ -1,3 +1,6 @@
+//Live replies data page where all data stored in object form
+
+
 const RepliesData= [
     {id:1,
      img:"https://global-uploads.webflow.com/5fecd74b489ca969cf5a3848/60d38545ffe8f5669ab29e96_mann-p-500.png",

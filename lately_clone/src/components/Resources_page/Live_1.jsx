@@ -1,3 +1,5 @@
+//detail page-1 of Live reply
+
 import React from 'react'
 import "./Resources.css"
 
