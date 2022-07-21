@@ -11,8 +11,7 @@ function App() {
        <Footer/>
        <Product/>
        <Payment/>
-
-    </div>
+       </div>
   );
 }
 
