@@ -1,15 +1,16 @@
 
 import './App.css';
-import Footer from './components/Footer';
-import Mainroutes from './pages/Mainroutes';
-import Product from './pages/Product/Product'
-
+// import Footer from './components/Footer';
+// import Mainroutes from './pages/Mainroutes';
+// import Product from './pages/Product/Product'
+import {Payment} from "./pages/Payment/Payment"
 function App() {
   return (
     <div className="App">
-       <Mainroutes/>
+       {/* <Mainroutes/>
        <Footer/>
-       <Product/>
+       <Product/> */}
+       <Payment/>
 
     </div>
   );

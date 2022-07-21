@@ -5,11 +5,11 @@ import { Home } from './Home'
 
 const Mainroutes = () => {
   return (
-    <Routes>
+   
+    <div>
+      <Routes>
        <Route path='/' element={<Home/>}/>
     </Routes>
-    <div>
-     
     </div>
 
   )
