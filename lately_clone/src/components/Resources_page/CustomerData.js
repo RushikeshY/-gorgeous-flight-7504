@@ -1,5 +1,9 @@
-import Casestudy_1 from "./Casestudy_1";
-import Casestudy_2  from "./Casestudy_2"
+
+//Customers data page where all data stored in object form
+
+// import Casestudy_1 from "./Casestudy_1";
+// import Casestudy_2  from "./Casestudy_2"
+
 const CustomerData= [
    {id:1,
     img:"https://global-uploads.webflow.com/5fecd74b489ca969cf5a3848/609b04d816f2a5e189b6b67a_Amerifirst-jpg-1024x309-p-500.jpeg",
@@ -41,8 +45,6 @@ const CustomerData= [
     detail:"National non-profit uses Lately to keep social media messaging consistent, organized and more efficient.",
     link:"./Casestudy_1.jsx"
 }
-
-
 
 ]
 export default CustomerData
