@@ -8,11 +8,9 @@ import Product from './pages/Product/Product'
 function App() {
   return (
     <div className="App">
-       {/* <Mainroutes/> */}
-      
-       <Product/>
-       <Footer/>
-       {/* <ContentWriter/> */}
+
+       <Mainroutes/>
+    
 
     </div>
   );
