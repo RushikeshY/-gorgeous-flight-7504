@@ -6,6 +6,8 @@ import { Home } from './Home'
 
 const Mainroutes = () => {
   return (
+
+
     <>
     <div><Navbar/></div>
     <Routes>
@@ -14,6 +16,7 @@ const Mainroutes = () => {
 
     <div>
       <Footer/>
+
     </div>
     </>
 
