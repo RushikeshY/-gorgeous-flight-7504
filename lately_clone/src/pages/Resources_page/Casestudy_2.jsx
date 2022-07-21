@@ -1,3 +1,5 @@
+//detail page-2 of case study
+
 import React from 'react'
 import "./Resources.css"
 

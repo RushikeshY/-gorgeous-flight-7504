@@ -11,10 +11,12 @@ const Mainroutes = () => {
     <Routes>
        <Route path='/' element={<Home/>}/>
     </Routes>
+
     <div>
       <Footer/>
     </div>
     </>
+
   )
 }
 
