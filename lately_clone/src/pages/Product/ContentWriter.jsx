@@ -228,6 +228,98 @@ const ContentWriter = () => {
           </div>
         </div>
       </div>
+
+      <div
+        style={{
+          backgroundColor: "#e6f6ef",
+          paddingTop: "1px",
+          marginTop: "30px",
+          paddingBottom: "40px",
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            marginTop: "20px",
+            marginLeft: "10rem",
+            marginRight: "10rem",
+          }}
+        >
+          <div>
+            <img
+              style={{
+                height: "170px",
+                width: "170px",
+                justifyContent: "center",
+                marginLeft: "70px",
+              }}
+              src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fe2a107354a9a53719df14e_Icon_Circles_AI.svg"
+              alt=""
+            />
+            <div style={{ height: "80px", marginTop: "20px" }}>
+              <h2 className={styles.head2}>
+                Artificial Social Intelligence Engine
+              </h2>
+            </div>
+
+            <p className={styles.para}>
+              Our AI constantly learns from your past social media posts and
+              builds a writing model based on what is most engaging for your
+              audience.
+            </p>
+            <button
+              style={{ marginLeft: "27%", marginTop: "40px" }}
+              className={styles.btn1}
+            >
+              LEARN MORE
+            </button>
+          </div>
+          <div style={{ marginLeft: "30px" }}>
+            <img
+              style={{ height: "170px", width: "170px", marginLeft: "120px" }}
+              src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fe2a106b3d5038e3fa9b20f_Icon_Circles_Parent_Child.svg"
+              alt=""
+            />
+            <div style={{ height: "80px", marginTop: "20px" }}>
+              <h2 className={styles.head2}>Parent-Child Accounts</h2>
+            </div>
+
+            <p className={styles.para}>
+              Make it easy to manage, publish and analyze all of your social
+              media content across multiple products, brands, regions,
+              franchises, and users all from one centralized place.
+            </p>
+            <button
+              style={{ marginLeft: "33%", marginTop: "40px" }}
+              className={styles.btn1}
+            >
+              LEARN MORE
+            </button>
+          </div>
+          <div>
+            <img
+              style={{ height: "170px", width: "170px", marginLeft: "120px" }}
+              src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fe2a1073d22be4b6068b0ff_Icon_Circles_Pricing.svg"
+              alt=""
+            />
+            <div style={{ height: "80px", marginTop: "20px" }}>
+              <h2 className={styles.head2}>Just-right Pricing</h2>
+            </div>
+
+            <p className={styles.para}>
+              Whether you’re just starting to scale your social media marketing
+              program or you’re ready to extend it across executives and sales
+              teams, we have an edition right-sized for your needs.
+            </p>
+            <button
+              style={{ marginLeft: "34%", marginTop: "40px" }}
+              className={styles.btn1}
+            >
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
