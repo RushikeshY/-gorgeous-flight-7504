@@ -14,15 +14,9 @@ function App() {
     <div className="App">
 
        <Mainroutes/>
-
-       <Footer/>
        <Product/>
        <Payment/>
        </div>
-
-    
-
-    </div>
 
   );
 }
