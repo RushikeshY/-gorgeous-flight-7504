@@ -1,25 +1,32 @@
-import React from 'react'
-import { Container ,Box, Input, Flex} from '@chakra-ui/react'
+import React, { useState } from 'react'
+import {Box, Input, Flex} from '@chakra-ui/react'
 import "./Payment.css"
+import checked from "../Payment/images/checked.png"
+import youtube from "../Payment/images/youtube.jpg"
 export const Payment = () => {
+  // const[curr, setCurr]=useState(true)
   return (
   <div className='fw188-payDiv' >
-      <Container className='fw188-Container' >
-    
-    <Box style={{margin:"80px ,0,80px, 0"}}>
+
+      <div className='fw13-containt'>
+    {/*=========== Selecte work ==============*/}
+    <div className='fw13-select' >
      <h1 style={{fontSize:"30px" ,fontWeight:"bold"}}>Select Your Lately Plan</h1>
-     <p  >The world's most human A.I. is waiting for you - start your free <span style={{fontSize:"20px" }}>7-day trial</span> today!</p>
-   </Box>
-    <Box style={{margin:"10px"}}>
-     <h2 style={{fontSize:"20px" ,fontWeight:"bold"}}>1. Payment Information</h2>
-     <Box style={{margin:"10px"}}>
+     <p>The world's most human A.I. is waiting for you - start your free <span style={{fontSize:"20px" }}>7-day trial</span> today!</p>
+   </div>
+ {/* Payment Information */}
+    <div className='fw13-payInf' >
+     <h2 style={{fontSize:"20px" ,fontWeight:"bold" , color:"rgb(48,68,85)"}}>1. Payment Information</h2>
+     </div>
+
+     <Box style={{margin:"10px", color:"rgb(48,68,85)"}}>
      <p>Credit or Debit Card*</p>
-     <input type="number" placeholder='Card number' />
-     <input type="month" placeholder='' />
+     <input className='fw13-cradInp' type="number" placeholder='Card number' />
+     <input className='fw13-cradInp' type="month" placeholder='' />
      </Box>
- <Box style={{margin:"10px"}}>
+ <Box style={{margin:"10px" }}>
 <Flex >
-<Box style={{margin:"10px"}}>
+<Box style={{margin:"10px", color:"rgb(48,68,85)"}}>
 <label>Name on Card*</label>
      <br/>
      <Input
@@ -52,15 +59,213 @@ export const Payment = () => {
  placeholder=''
 />
 </Box>
-     
+     {/* =========== Plane option ==============*/}   
 </Flex>
 </Box>  
-  </Box>
-    <Box></Box>
-    <Box></Box>
-    <Box></Box>
- </Container>
+    <div className='fw13-planoption'>
+   <div>
+  <h2 style={{fontSize:"20px" ,fontWeight:"bold"}}>1. Plan Options</h2>
   </div>
+
+  <div>
+    <p style={{fontSize:"20px" ,fontWeight:"bold" , color:"#00c66b", display:"inline"}}>PUBLISH WITH
+    </p>
+   
+      <img style={{width:"100px", display:"inline" }} src='https://app.lately.ai/img/lately_logo.53defb01.jpg' alt='img'/>
+   </div>
+    
+   
+   </div>
+
+
+   <Flex>
+   
+   <div className='fw13-planLitely'>
+     <Flex className='fw13-lit'>
+     <div className='fw13.plan'>
+       <h1 style={{fontSize:"30px" ,fontWeight:"bold"}}>Litely</h1>
+       <p>7 Day Free Trial!</p>
+       <h1 style={{fontSize:"30px" ,fontWeight:"bold"}}>$49/month</h1>
+       <p>For individuals and micro-businesses</p>
+       </div>
+      <div> <img style={{width:"30px"}} src={checked}/></div>
+     </Flex>
+ 
+         {/* =========Litely Include================== */}
+     <div >
+    <div className='fw13-litely'> <h3>Litely Includes:</h3></div>
+
+     <div >
+
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text' >
+      Generate from video, audio or text
+    </p>
+   </div>
+
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      A.I. learning for one brand voice
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      A.I.-recommended hashtags
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Single-user
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Up to 100 posts per months
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Email support
+    </p>
+   </div>
+     </div>
+
+   {/* ================Publish to======================= */}
+   <div>
+    <div className='fw13-litely'> <h3>Publish to:</h3></div>
+
+     <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Facebook Company Pages
+    </p>
+   </div>
+
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Instagram Company Pages
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      LinkedIn Company & Personal Pages
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Twitter Company & Personal Pages
+    </p>
+   </div>
+  
+     </div>
+     <div>
+      <a href='https://www.youtube.com/watch?v=Nab1UUNDQgc'>
+      <img style={{width:"50px" , display:"inline"}} src={youtube} 
+      alt="youtube"/>
+      <p style={{color:"rgb(1, 168, 85)" , display:"inline"}}>
+      Watch Litely In Action
+      </p>
+      </a>
+     </div>
+    </div> 
+
+      
+    <div className='fw13-planLitely'>
+    <Flex className='fw13-lit'>
+     <div className='fw13.plan'>
+       <h1 style={{fontSize:"30px" ,fontWeight:"bold"}}>Professionally</h1>
+       <p>7 Day Free Trial!</p>
+       <h1 style={{fontSize:"30px" ,fontWeight:"bold"}}>$129/month
+</h1>
+       <p>For teams, small agencies, and high-growth businesses</p>
+       </div>
+      <div> <img style={{width:"30px"}} src={checked}/></div>
+     </Flex>
+    <div >
+    <div className='fw13-litely'> <h3>Everything in Litely plus:</h3></div>
+
+     <div >
+
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text' >
+      Generate from video, audio or text
+    </p>
+   </div>
+
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      A.I. learning for one brand voice
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      A.I.-recommended hashtags
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Single-user
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Up to 100 posts per months
+    </p>
+   </div>
+   
+   
+  
+     </div>
+     <div>
+      <a href='https://www.youtube.com/watch?v=Nab1UUNDQgc'>
+      <img style={{width:"50px" , display:"inline"}} src={youtube} 
+      alt="youtube"/>
+      <p style={{color:"rgb(1, 168, 85)" , display:"inline"}}>
+      Watch Litely In Action
+      </p>
+      </a>
+     </div>
+    </div> 
+    
+ 
+   </Flex>
+  </div>
+
+
+   
+
+   
+    <Box></Box>
+    <Box></Box>
+ </div>
+
   )
 }
 
