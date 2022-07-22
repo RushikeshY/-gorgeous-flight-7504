@@ -385,6 +385,10 @@ const Product = () => {
           paddingBottom: "40px",
         }}
       >
+              <h1 style={{ paddingTop: "50px", color: "#174c43",textAlign:"center",width:"75%",marginBottom:"40px", fontSize:"34px",fontWeight:"700",marginLeft:"10rem",lineHeight:"36px" }}>
+          The Lately social media AI content writing <br /> solution is designed for
+          companies of every size
+        </h1>
         <div
           style={{
             display: "flex",

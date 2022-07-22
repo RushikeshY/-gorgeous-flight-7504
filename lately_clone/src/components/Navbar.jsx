@@ -10,7 +10,11 @@ const Navbar = () => {
    <Container backgroundColor="#3f6b96" textAlign="center" color="whiteAlpha.900" maxW="2md" p={4}>
       <Text>This just in: Generate A.I. content for ANY Hootsuite account with Lately<span style={{textDecoration:"underline"}}>.Here's</span></Text>
    </Container>
+
    <Box display="flex"  width="100%" alignItems="center" justifyContent="space-evenly" bg="whiteAlpha.900" >
+
+   <Box display="flex"  width="100%" alignItems="center" justifyContent="space-evenly" >
+
     <Box className={styles.menuContent} display="flex" alignItems="center" gap="5">
     <Box mr={10}>
         <Image boxSize="90px" src='https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fd8f444e5106349b4570e0b_lately-nav-logo.svg'/>
@@ -20,7 +24,7 @@ const Navbar = () => {
         <ul>
             <li>
                 <HStack>
-                <Heading as="h4" fontWeight="semibold" size="sm">Products</Heading>
+               <Link to="/product">  <Heading as="h4" fontWeight="semibold" size="sm">Products</Heading> </Link>
                 <ChevronDownIcon/>
                 </HStack>
             <Box className={styles.menuSub}
@@ -50,7 +54,7 @@ const Navbar = () => {
              </GridItem>
              <GridItem p={3} h='250px' pl={5} bg="whiteAlpha.900">
                <Box>
-                <Link to=''><Heading as="h6" size="sm" fontWeight="semibold">AI CONTENT WRITER</Heading ></Link>
+                <Link to='/contentWriter'><Heading as="h6" size="sm" fontWeight="semibold">AI CONTENT WRITER</Heading ></Link>
                  <Text mt={1}>
                     Automatically writes and pretests content for your social media programs
                  </Text>  
@@ -65,7 +69,7 @@ const Navbar = () => {
 
              <GridItem p={3} h='250px'bg="whiteAlpha.900">
                 <Box>
-                    <Link to=''><Heading as="h6" size="sm"fontWeight="semibold">SOCIAL MEDIA MARKETING</Heading></Link>
+                    <Link to='/socialMedia'><Heading as="h6" size="sm"fontWeight="semibold">SOCIAL MEDIA MARKETING</Heading></Link>
                     <Text mt={1}>
                         Everything you need to scale your social media marketing<br></br> program
                     </Text>
