@@ -15,14 +15,13 @@ function App() {
 
        <Mainroutes/>
 
-       <Footer/>
+       {/* <Footer/>
        <Product/>
-       <Payment/>
+       <Payment/> */}
        </div>
 
     
 
-    </div>
 
   );
 }
