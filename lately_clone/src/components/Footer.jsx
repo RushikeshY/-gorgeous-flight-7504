@@ -1,4 +1,4 @@
-import { Box, Container, HStack, Icon, Image, Stack, Text} from '@chakra-ui/react'
+import { Box, Button, Container, HStack, Icon, Image, Stack, Text} from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from "../components/footer.module.css"
@@ -6,7 +6,16 @@ import { EmailIcon } from "@chakra-ui/icons"
 const Footer = () => {
   return (
   <>
-   <Container className={styles.Linkers} mb={10} maxW="6xl" display="flex" justifyContent="space-between" >
+  <Box bg="#e8f8f2" textAlign="center" className={styles.footerOne}>
+    <Box p={10}>
+    <Text fontSize="5xl" fontWeight="semibold" lineHeight="55px">Ready to start generating more effective<br></br>social posts with AI?</Text>
+    <Link to="">
+    <Button color="#00c672" border="1px solid #00c672" bg="white" mt={5}>TRY IT FREE</Button>
+    </Link>
+    </Box>
+  </Box>
+
+   <Container mt={10} className={styles.Linkers} mb={10} maxW="6xl" display="flex" justifyContent="space-between" >
         
            <Box>
              <Text mb="1" fontSize="sm" fontWeight="bold" color="grey">COMPANY</Text>

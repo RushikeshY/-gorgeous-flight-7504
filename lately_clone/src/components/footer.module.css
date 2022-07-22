@@ -19,3 +19,7 @@
     transition: 0.3s;
     cursor: pointer;
 }
+.footerOne button:hover{
+ color:white;
+ background-color: #32cb89;
+}
