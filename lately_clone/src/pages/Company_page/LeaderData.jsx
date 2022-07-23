@@ -1,0 +1,103 @@
+const LeaderData= [
+    {id:1,
+     img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5ffca99db00c4ef50875b7e5_Kate.jpg",
+    name:"Kate Chernis Bradley",
+    post:"Cofounder & CEO",
+     detail:"A.I.-powered content creation pioneer. Former marketing agency owner with a whole lotta spreadsheets. Ex-XM rock 'n' roll dj. Copywriting savant.",
+  
+ },
+ {id:2,
+     img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5ffca99ec386c51d19f51306_Lauren-p-500.jpeg",
+     name:"Lauren Turow",
+     post:"Head of Growth Operations",
+     detail:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5ffca99ec386c51d19f51306_Lauren-p-500.jpeg",
+  
+ },
+ {id:3,
+     img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/6012e4869863c372d7ccf76b_jason2-p-500.jpeg",
+     name:"Jason DeBacco",
+     post:"Cofounder & CPO",
+     detail:"Graphic and UX designer, specializing in scalable, customer-facing platforms for badass global brands you’ve def heard of. Dachshund enthusiast. ",
+    
+ },
+ {id:4,
+     img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5ffca99d387ffcef80d8a887_Brian.jpg",
+     name:"Brian Sirkia",
+     post:"Cofounder & CTO",
+     detail:"Serial entrepreneur. Full-stack engineer. Calm in the storm. Kate’s fave guy to have a beer with EVER. Plus his cat is named Bruce.",
+  
+ },
+ {id:5,
+     img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/6011aea32d36cd40181fcc06_ab-p-500.jpeg",
+     name:"Kristen Shedd",
+     post:"Customer Success Manager",
+     detail:"Marketing humdinger. Joyful insouciant. The New Rules of Marketing and PR author (yep, THAT guy). Grateful Dead superfan.",
+  
+ },
+ {id:6,
+     img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/602c0a9825089663e017a552_1517478331461.jpeg",
+     name:"David Merman Scott",
+     post:"Strategic Marketing Advisor",
+     detail:"Consumer marketing agency, researcher, and public speaker on predicting and influencing behavior.",
+  
+ },
+ {id:7,
+     img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/60770daa16b5a86d9e6bce9f_EMMASERENY.jpg",
+     name:"Emma Sereny-Johnson",
+     post:"PR Associate",
+     detail:"Organizing whiz. Former TV actor. Competitive horseback rider (yes, a sport; ever been tossed off a horse?). Digs Stones, Steve Martin, and gin.",
+
+ },
+ {id:8,
+     img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5ffca99d4d6317835171469b_Greg.jpg",
+     name:"Greg Hamel",
+     post:"VP of Engineering",
+     detail:"Full-stack engineer and former CTO. Backend architecture, development and implementation. Sanity keeper. Hero. Heavy metal drummer.",
+    
+ },
+ {id:9,
+    img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/60770e05dc54d3677803fe1a_gary.jpeg",
+    name:"Gary Vaynerchuk",
+    post:"Entrepreneurial Advisor",
+    detail:"Marketing mystic. Chairman of VaynerX. CEO of VaynerMedia. 5-Time NYT Bestselling Author. Looooooves wine.",
+   
+},
+{id:10,
+    img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/6012b32371fbb12bd4c5ad68_breault.png",
+    name:"Chris Breault",
+    post:"Customer Experience Account Executive",
+    detail:"Award-winning music curator and rock ‘n’ roll podcast host. Soccer beast. Craft beer aficionado. Kate and Chris go waaaaay back.",
+   
+},
+{id:11,
+    img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/600a12640a4a1b435f05fd28_T048XPPQD-U9MSWP49L-e924321d2fe5-512-p-500.png",
+    name:"Cadi Jordan",
+    post:"Social Media Engagement Lead",
+    detail:"Connectorpreneur. Marketing and social media strategist. Social selling lead-generation. Empath. Fave game: Two Truths and a Lie.",
+   
+},
+{id:12,
+    img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/6012eb6878bc1c3a4b4c4f16_kaigui2.png",
+    name:"Dr. Kaigui Bian",
+     post:"AI Lead",
+    detail:"Network Computing Assoc. Professor/Director. Computer Science Asst. Chair, EECS Peking University. Obvi smarter than the rest of us.",
+   
+},
+{id:13,
+    img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/6011aea1b737499f777f78aa_aa.jpeg",
+    name:"Alex Wieser",
+    post:"Social Media Advisor",
+    detail:"Copywriting whippersnapper. Digital marketing persona development. Longest serving employee! Her King Charles Cavalier is supah-cute.",
+   
+},
+{id:14,
+    img:"https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/6011aea3a7a22a3948ad971a_ae-p-500.jpeg",
+    name:"Judy Loehr",
+    post:"Product & Partnerships Advisor",
+    detail:"SaaS tech veteran (Salesforce + a loooong list of others). Early product build and GTM specialist. VC. Champion of rad female founders.",
+   
+},
+
+ 
+ ]
+ export default LeaderData
