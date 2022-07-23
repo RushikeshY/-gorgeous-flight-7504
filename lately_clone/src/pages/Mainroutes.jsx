@@ -7,6 +7,7 @@ import { Payment } from './Payment/Payment'
 import ContentWriter from './Product/ContentWriter'
 import Product from './Product/Product'
 import SocialMedia from './Product/SocialMedia'
+import Blog from "./Resources_page/Blog"
 
 const Mainroutes = () => {
   return (
@@ -20,6 +21,7 @@ const Mainroutes = () => {
        <Route path="/product" element={<Product/>}/>
        <Route path="/contentWriter" element={<ContentWriter/>}/>
        <Route path="/socialMedia" element={<SocialMedia/>}/>
+       <Route path="/Blog" element={<Blog/>}/>
     </Routes>
 
     <div>
