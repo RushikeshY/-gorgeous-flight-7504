@@ -11,7 +11,7 @@ const Helpcenter = () => {
     <div style={{ width: "100%", backgroundColor: 'rgb(23,76,67)', height:"220px",textAlign:"center",margin:"auto",padding:"30px"} }>
         <br/>
         <br/>
-   <h1 style={{color:"white"}}><b>Help Center</b></h1> 
+   <h1 style={{color:"white",fontSize:"30px",fontWeight:"bold"}}><b>Help Center</b></h1> 
       </div>
 <br/>
 <br/>

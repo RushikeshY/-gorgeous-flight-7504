@@ -3,7 +3,7 @@
 
 import React from 'react'
 import "../Resources_page/Resources.css";
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 // import Casestudy_1 from './Casestudy_1';
 
 const Cards1 = ({data}) => {
@@ -13,9 +13,9 @@ const Cards1 = ({data}) => {
   data.map((elem,k)=>{
     return (
       <>
-      <div style={{   margin:"20px"}}>
-      <Card style={{ width: '22rem',borderRadius:"20px",backgroundColor:"rgb(232,248,242)"} } class="row justify-content-center">
-      <Card.Img variant="top" src={elem.img} style={{ width: '100%' ,height:'17rem',padding:"20px", borderRadius: '50%' }}/>
+      <div style={{   margin:"20px",marginLeft:"30px",padding:"30px"}}>
+      <div style={{ width: '17rem',borderRadius:"20px",backgroundColor:"rgb(232,248,242)"} } class="row justify-content-center">
+      <img variant="top" src={elem.img} style={{ width: '100%' ,height:'17rem',padding:"20px", borderRadius: '50%' }}/>
       <br/>
       <br/>
       <div style={{textAlign:"center"}}>
@@ -26,7 +26,7 @@ const Cards1 = ({data}) => {
        <br/>
        </div>
       </div>  
-    </Card>
+    </div>
     </div>
       </>
     )

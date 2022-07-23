@@ -23,9 +23,9 @@ const Blog = () => {
         }}
       >
         {/* <h6 style={{color:'rgb(17,175,107)',}} >LATELY OFFICE HOURS</h6> */}
-        <h1 style={{ color: "white" }}>Lately Blog</h1>
+        <h1 style={{ color: "white",fontSize:"30px",marginBottom:"10px" }}>Lately Blog</h1>
 
-        <h4 style={{ color: "white", marginLeft: "17% " }}>
+        <h4 style={{ color: "white", marginLeft: "8% ",fontSize:"24px" }}>
           Product Updates, News, Marketing Tips & the Occasional
           Spreadsheet-Hating Tangent
         </h4>

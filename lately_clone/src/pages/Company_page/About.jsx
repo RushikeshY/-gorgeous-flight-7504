@@ -12,8 +12,8 @@ const About = () => {
     <div style={{ width: "100%", backgroundColor: 'rgb(23,76,67)', height:"250px",textAlign:"center",margin:"auto",padding:"30px"} }>
         <br/>
         <br/>
-        <p style={{color:"rgb(14,172,107)",fontSize:"20px"}}><b>ABOUT</b></p>
-   <h1 style={{color:"white"}}><b>AI fueled by the neuroscience of music?</b></h1> 
+        <p style={{color:"rgb(14,172,107)",fontSize:"30px"}}><b>ABOUT</b></p>
+   <h1  style={{color:"white",fontSize:"30px"}}><b>AI fueled by the neuroscience of music?</b></h1> 
       </div>
 <br/>
 <br/>
@@ -25,7 +25,7 @@ const About = () => {
         <img src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/61f1ca4f99c05d00ccde0d83_katephones-p-800.png"></img>
         <br/>
         <br/>
-        <h1 ><b>Yeppers!</b></h1>
+        <h1 style={{fontSize:"20px",paddingBottom:"10px"}} ><b>Yeppers!</b></h1>
         <br/>
         <p >Once upon a time, there was a rock ‘n roll dj, broadcasting to 20 million listeners a day for Sirius/XM. And she learned how to turn listeners into fans (a.k.a. customers into evangelists) by tapping into old-school trigger points and tying them together with new ideas.<br/><br/>
 ‍
@@ -40,7 +40,7 @@ With Kate’s system, they achieved a 130%, three year, year-over-year ROI.<br/>
 In fact, Kate found similar success with all of her clients, regardless of industry or company size. So, along with one heckuva team, she created Lately to automate the whole kit and caboodle with AI</p>
      <br/>
   
-     <h1 ><b>Here’s how it works:</b></h1>
+     <h1 style={{fontSize:"20px",paddingBottom:"10px"}} ><b>Here’s how it works:</b></h1>
      <p>Lately helps humans write better marketing content in collaboration with artificial intelligence and software automation. (That collaboration part is key, btw. And is the basis of everything we do.)</p>
      <br/>
      <ul>
@@ -55,7 +55,7 @@ In fact, Kate found similar success with all of her clients, regardless of indus
      </ul>
      <br/>
      <img src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/61f1c2e6312c3754f634dacb_stones-p-800.png" style={{width:"80%" , marginLeft: "15%" }}></img>
-     <h1><b>Vision</b></h1>
+     <h1 style={{fontSize:"20px",paddingBottom:"10px"}}><b>Vision</b></h1>
      <p>Lately helps humans write better marketing content in collaboration with artificial intelligence and software automation. (That collaboration part is key, btw. And is the basis of everything we do.)<br/><br/>
 
 Leading by example is core to our product and our belief. We walk the talk. And we do it, together.<br/><br/>
@@ -72,8 +72,8 @@ Together, in partnership with our customers, we’re growing Lately into a new e
       <div style={{  backgroundColor: 'rgb(232,248,242)',height:"400px",width:"100%",textAlign:"center"}}>
         <br/>
         <br/>
-        <h1><b>Contact us</b></h1>
-        <img src={require('./Capture.PNG')} />
+        <h1 style={{fontSize:"30px",paddingBottom:"20px"}}><b>Contact us</b></h1>
+        <img style={{marginLeft:"15%"}} src={require('./Capture.PNG')} />
       </div>
     </>
   )

@@ -3,12 +3,13 @@ import {Box, Input, Flex} from '@chakra-ui/react'
 import "./Payment.css"
 import checked from "../Payment/images/checked.png"
 import youtube from "../Payment/images/youtube.jpg"
+import { useNavigate } from 'react-router-dom'
 export const Payment = () => {
   // const[curr, setCurr]=useState(true)
   const [them, setThem]=useState(true)
   const [month, setMonth]=useState(false)
   const [annual, setAnnual]=useState(false)
-
+let navigate = useNavigate()
   const [letl, setLetl]= useState(false);
   const [prof, setProf]=useState(false)
 
@@ -32,6 +33,7 @@ export const Payment = () => {
       alert("Please fill Required data")
     }
     alert("Payment Successfull")
+    navigate("/")
    }
   const handleletl=()=>{
       setLetl(true)
@@ -441,7 +443,7 @@ setProf(true)
     <h3>By clicking 'Submit and Create Account,' you understand that your credit card will be charged the above amount after your 7-day trial has ended. If you cancel before your trial has ended, your credit card will not be charged.</h3>
    </div>
 
-<button style={{backgroundColor:"green"}} onClick={handleContinue}>START FREE TRIAL</button>
+<button style={{backgroundColor:"green",height:"30px",marginTop:"10px",width:"160px",padding:"5px",color:"white",borderRadius:"5px"}} onClick={handleContinue}>START FREE TRIAL</button>
 </div>
 
   </div>

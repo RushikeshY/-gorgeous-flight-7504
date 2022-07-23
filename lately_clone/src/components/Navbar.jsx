@@ -17,7 +17,8 @@ const Navbar = () => {
 
     <Box className={styles.menuContent} display="flex" alignItems="center" gap="5">
     <Box mr={10}>
-        <Image boxSize="90px" src='https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fd8f444e5106349b4570e0b_lately-nav-logo.svg'/>
+      <Link to="/">  <Image boxSize="90px" src='https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fd8f444e5106349b4570e0b_lately-nav-logo.svg'/>
+      </Link> 
     </Box>
 
     <Box>
@@ -116,6 +117,7 @@ const Navbar = () => {
             <Link to="/ebook">Ebooks</Link>
             <Link to="/blog">Blog</Link>
             <Link to="/helpCenter">Help Center</Link>
+            
             </Stack>
          </Box >
         </Box>
@@ -133,8 +135,8 @@ const Navbar = () => {
        <Box className={styles.menuSub} p={2}  bg="whiteAlpha.900" width="250px" height="auto" position="absolute" display="none" >
           <Box textAlign="left">
           <Stack mt={2}>
-            <Link to="">About</Link>
-            <Link to="">Leadership</Link>
+            <Link to="about">About</Link>
+            <Link to="leadership">Leadership</Link>
             <Link to="">Press & News</Link>
             <Link to="">Lately Professional</Link>
             <Link to="">Contact Us</Link>

@@ -6,9 +6,9 @@ import { EmailIcon } from "@chakra-ui/icons"
 const Footer = () => {
   return (
   <>
-  <Box bg="#e8f8f2" textAlign="center" mt={20} className={styles.footerOne}>
+  <Box bg="#e8f8f2" textAlign="center" p={10} className={styles.footerOne}>
     <Box p={10}>
-    <Text fontSize="5xl" fontWeight="semibold" lineHeight="55px">Ready to start generating more effective<br></br>social posts with AI?</Text>
+    <Text fontSize="5xl" color="rgb(23,76,67)" fontWeight="semibold" lineHeight="55px">Ready to start generating more effective<br></br>social posts with AI?</Text>
     <Link to="">
     <Button color="#00c672" border="1px solid #00c672" bg="white" mt={5}>TRY IT FREE</Button>
     </Link>

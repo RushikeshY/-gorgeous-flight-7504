@@ -663,7 +663,7 @@ const Product = () => {
 
  {/* =======================================   Try for free Part =================== */}
 
-      <div className={styles.LastDiv1}>
+      {/* <div className={styles.LastDiv1}>
         <h1
           style={{
             fontSize: "36px",
@@ -682,7 +682,7 @@ const Product = () => {
         <button style={{ marginLeft: "44%" }} className={styles.btn1}>
           TRY IT FREE
         </button>
-      </div>
+      </div> */}
     </>
   );
 };

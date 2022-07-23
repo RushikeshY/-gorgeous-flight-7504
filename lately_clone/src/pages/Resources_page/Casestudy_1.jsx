@@ -10,10 +10,10 @@ const Casestudy_1 = () => {
 
 <div style={{ width: "100%", backgroundColor: 'rgb(23,76,67)', height:"220px",marginBottom:'40px',paddingTop:"40px"} }>
 
-<h6 style={{color:'rgb(17,175,107)',textAlign:"center"}} >CASE STUDY</h6>
+<h6 style={{color:'rgb(17,175,107)',textAlign:"center" ,fontSize:"30px"}} >CASE STUDY</h6>
    
 
-   <h1 style={{color: "white",textAlign:"center"}}>
+   <h1 style={{color: "white",textAlign:"center",fontSize:"30px"}}>
    Amerifirst’s Social Selling Program with Lately.ai
    </h1>
 </div>
@@ -26,7 +26,7 @@ const Casestudy_1 = () => {
   <div  id="left">
     <img src="https://global-uploads.webflow.com/5fecd74b489ca969cf5a3848/609b075836e6a710b3962ecd_1573226729995.jpeg" style={{width:"150px",borderRadius:"50%"}}></img>
     <br></br>
-    <h3>Josh Switzer</h3>
+    <h3 >Josh Switzer</h3>
     <p>Marketing Specialist,<br/> Amerifirst</p>
     <br/>
     <img src="https://global-uploads.webflow.com/5fecd74b489ca969cf5a3848/609b04d816f2a5e189b6b67a_Amerifirst-jpg-1024x309-p-500.jpeg" style={{width:"150px"}}></img>

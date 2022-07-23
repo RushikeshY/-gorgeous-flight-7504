@@ -14,9 +14,10 @@ import Live_1 from './Resources_page/Live_1'
 import Helpcenter from "./Resources_page/Helpcenter"
 import Live_replies from './Resources_page/Live_replies'
 import { Demo } from './Demo'
-
-
-
+import Ebook from "./Resources_page/Ebook"
+import About from './Company_page/About'
+import Leadership from "./Company_page/Leadership"
+import CaseStudy_1 from "./Resources_page/Casestudy_1"
 const Mainroutes = () => {
   return (
 
@@ -36,7 +37,12 @@ const Mainroutes = () => {
        <Route path = "/helpCenter" element={<Helpcenter/>}/>
 
        <Route path="/Blog" element={<Blog/>}/>
+       <Route path="/ebook" element={<Ebook/>}/>
        <Route path="/demo" element={<Demo/>}/>
+       <Route path="/about" element={<About/>}/>
+       <Route path="/leadership" element={<Leadership/>}/>
+       <Route path ="/live1" element={<Live_1/>}/>
+       <Route path ="/case1" element={<CaseStudy_1/>}/>
 
     </Routes>
 

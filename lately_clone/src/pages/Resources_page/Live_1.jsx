@@ -7,12 +7,17 @@ const Live_1 = () => {
   return (
    <>
    <div id="live1">
+
 <h1><b>Marketing Yourself Before and AFTER You Get the Job</b></h1>
 <br/>
 <br/>
-<video width="100% " controls >
-      <source src="https://youtu.be/x0q3dZ1TtIc"  type="video/mp4"/>
+<video width="100% " controls autoplay>
+      <source src="https://youtu.be/x0q3dZ1TtIc"  type="video/mp4" />
+
      </video>
+     
+
+     
      <br/>
      <br/>
      <br/>

@@ -4,20 +4,22 @@ import {options as data} from "./options"
 import { Link } from 'react-router-dom'
 
 export const Demo = () => {
+
+
   return (
     <>
       <Box bg="#144039" padding="6%">
-        <Heading size="2xl" color="whiteAlpha.900" as="h1">Request a Demo</Heading>
+        <Heading textAlign="center"  size="2xl" color="whiteAlpha.900" as="h1">Request a Demo</Heading>
     </Box>
-    <Box bg="#e8f8f2 " height="400px">
+    <Box bg="#e8f8f2 " height="auto">
         <Box display="flex" 
         width="80%" 
         padding="2%" 
         margin="auto"
         justifyContent="space-around"
         >
-           <Box textAlign="left" mr="4%">
-            <Heading>Try us. Sign up for Lately<br></br>today.</Heading>
+           <Box textAlign="left" mr="4%" ml="-4%">
+            <Heading mb={5}>Try us. Sign up for Lately today.</Heading>
             <Text>Sign up now and have your first few weeks for<br></br>social posts scheduled in just minutes.</Text>
            </Box>
            <Box shadow="dark-lg" borderRadius="10px" bg="whiteAlpha.900" padding="4%">
@@ -111,7 +113,7 @@ export const Demo = () => {
                 </Stack>
                </Box>
                <Box textAlign="left">
-            <Link to="/">  <Input width="100px" bg="green" color="whiteAlpha.900" type="submit"/></Link>    
+            <Link to="/">  <Input width="100px" bg="green" color="whiteAlpha.900" type="submit" onClick={alert("We will Contact you soon ")}/></Link>    
                </Box>
             </FormControl>
            </Box>
