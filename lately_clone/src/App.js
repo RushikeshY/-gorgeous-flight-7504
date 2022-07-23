@@ -13,8 +13,7 @@ function App() {
   return (
     <div className="App">
        <Mainroutes/>
-       <Product/>
-       <Payment/> */}
+
        </div>
   );
 }

@@ -109,13 +109,13 @@ const Navbar = () => {
        <Box className={styles.menuSub} bg="whiteAlpha.900" p={2} width="250px" height="auto" position="absolute" display="none">
          <Box textAlign="left">
             <Stack mt={2}>
-            <Link to="">Customer Stories</Link>
+            <Link to="/customer_stories">Customer Stories</Link>
             <Link to="">Lately Office Hours Sign-up</Link>
-            <Link to="">Lately LIVE Replays</Link>
+            <Link to="/liveReplays">Lately LIVE Replays</Link>
             <Link to="">How to Position ANYTHING</Link>
-            <Link to="">Ebooks</Link>
-            <Link to="">Blog</Link>
-            <Link to="">Help Center</Link>
+            <Link to="/ebook">Ebooks</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/helpCenter">Help Center</Link>
             </Stack>
          </Box >
         </Box>
@@ -161,7 +161,7 @@ const Navbar = () => {
     </Box>
    </Box>
    </Box>
-   
+   </Box>
   </>
   )
 }
