@@ -161,7 +161,7 @@ const Navbar = () => {
     </Box>
    </Box>
    </Box>
-   
+   </Box>
   </>
   )
 }
