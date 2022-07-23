@@ -1,22 +1,18 @@
 
 import './App.css';
-// import Footer from './components/Footer';
-// import Mainroutes from './pages/Mainroutes';
-// import Product from './pages/Product/Product'
 import {Payment} from "./pages/Payment/Payment"
-// import Footer from './components/Footer';
-// import Mainroutes from './pages/Mainroutes';
-// import ContentWriter from './pages/Product/ContentWriter';
-// import Product from './pages/Product/Product'
+import Footer from './components/Footer';
+import Mainroutes from './pages/Mainroutes';
+import ContentWriter from './pages/Product/ContentWriter';
+import Product from './pages/Product/Product'
 function App() {
   return (
     <div className="App">
-     {/* <Mainroutes/>
+     <Mainroutes/>
        <Footer/>
-       <Product/> */}
+       <Product/>
        <Payment/>
        </div>
        );
 }
-
 export default App;
