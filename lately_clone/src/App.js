@@ -14,7 +14,7 @@ function App() {
     <div className="App">
        <Mainroutes/>
        <Product/>
-       <Payment/> */}
+       <Payment/> 
        </div>
   );
 }
