@@ -207,7 +207,7 @@ export const Payment = () => {
     <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
 
       <p className='fw13-lit-text' >
-      Generate from video, audio or text
+      Video transcript editing
     </p>
    </div>
 
@@ -215,55 +215,113 @@ export const Payment = () => {
     <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
 
       <p className='fw13-lit-text'>
-      A.I. learning for one brand voice
+      Video captioning
     </p>
    </div>
    <div >
     <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
 
       <p className='fw13-lit-text'>
-      A.I.-recommended hashtags
+      Add video intros/outros
     </p>
    </div>
    <div >
     <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
 
       <p className='fw13-lit-text'>
-      Single-user
+      A.I.-recommended keywords
     </p>
    </div>
    <div >
     <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
 
       <p className='fw13-lit-text'>
-      Up to 100 posts per months
+      Up to 3 users (add more @$30 each)
     </p>
    </div>
-   
-   
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Unlimited posts
+    </p>
+   </div>
+   <div >
+    <img style={{width:"1rem", display:"inline" , marginRight:"20px"}} src={checked} alt='img'/>
+
+      <p className='fw13-lit-text'>
+      Priority support
+    </p>
+   </div>
   
      </div>
      <div>
-      <a href='https://www.youtube.com/watch?v=Nab1UUNDQgc'>
+      <a href='https://www.youtube.com/watch?v=uMaTQjBr1Ec'>
       <img style={{width:"50px" , display:"inline"}} src={youtube} 
       alt="youtube"/>
       <p style={{color:"rgb(1, 168, 85)" , display:"inline"}}>
-      Watch Litely In Action
+      Watch Professionally In Action
       </p>
       </a>
      </div>
     </div> 
     
  
-   </Flex>
+    </Flex>
+    <div className='fw13-divofdiv'>
+<Flex>
+      <div className='fw13-hootdiv'>
+        <div className='fw13-latdown-img'>
+          <img style={{width:"100%", borderRadius:"10px" ,height:"100%"}} src='https://app.lately.ai/img/integrations.bb26e37f.png'/>
+        </div>
+        <div style={{marginTop:"20px"}}>
+        <h3>Already have Hootsuite or HubSpot Marketing Hub? Awesome. We integrate with them, too.</h3>
+        </div>
+      </div>
+      <div className='fw13-hootdiv'>
+      <div className='fw13-latdown-img'>
+          <img style={{width:"100%", borderRadius:"10px" ,height:"100%"}} src='https://app.lately.ai/img/transcription.61e10a89.png'/>
+        </div>
+        <div style={{marginTop:"20px"}}>
+        <h3>Already have Hootsuite or HubSpot Marketing Hub? Awesome. We integrate with them, too.</h3>
+        </div>
+      
+      </div>
+      <div className='fw13-hootdiv'>
+      <div className='fw13-latdown-img'>
+          <img style={{width:"100%", borderRadius:"10px" ,height:"100%"}} src='https://app.lately.ai/img/upcontent.42a0fa4a.png'/>
+        </div>
+        <div style={{marginTop:"20px"}}>
+        <h3>Already have Hootsuite or HubSpot Marketing Hub? Awesome. We integrate with them, too.</h3>
+        </div>
+       
+
+      </div>
+     </Flex>
+
+<div className='fw13-bill'>
+<div>
+  <h2 style={{fontSize:"20px" ,fontWeight:"bold"}}>1. Plan Options</h2>
+  </div>
+ <Flex>
+ <div className='fw13-rate'>
+
+</div>
+<div className='fw13-rate'>
+  
+</div>
+ </Flex>
+
+ </div>
+</div>
   </div>
 
 
+
+
    
 
    
-    <Box></Box>
-    <Box></Box>
  </div>
 
   )

@@ -71,3 +71,34 @@
     font-size: 15px;
     display: inline;
 }
+.fw13-hootdiv{
+    border: 1px solid red;
+    width: 30%;
+    margin: auto;
+    height: 300px;
+
+    border-radius: 10px;
+}
+.fw13-divofdiv{
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+}
+.fw13-latdown-img{
+    width: 100%;
+    height: 70%;
+}
+.fw13-bill{
+
+    width:100%;
+    height:150px;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+.fw13-rate{
+    width: 45%;
+    height: 70px;
+
+    border: 1px solid red;
+
+}
