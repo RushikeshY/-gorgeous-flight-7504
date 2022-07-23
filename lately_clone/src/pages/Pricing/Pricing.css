@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.fw13-pricing{
+
+ width: 70%;
+ height:200px;
+ background-color:rgb(19,61,54) ;  
+ margin :auto ;
+ 
+}
+.fw13-pricingh2{
+    line-height: 48px;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+}
+.fw13-pricingtext{
+  font-size: 21px;
+  line-height: 30px;
+  color: #fff;
+
+}
+.fw13-pricingmain{
+  width:100%;
+  height:200px;
+  background-color: rgb(19,61,54) ;
+
+}
