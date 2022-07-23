@@ -111,7 +111,7 @@ const Navbar = () => {
             <Stack mt={2}>
             <Link to="/customer_stories">Customer Stories</Link>
             <Link to="">Lately Office Hours Sign-up</Link>
-            <Link to="/liveReplays">Lately LIVE Replays</Link>
+            <Link to="/live">Lately LIVE Replays</Link>
             <Link to="">How to Position ANYTHING</Link>
             <Link to="/ebook">Ebooks</Link>
             <Link to="/blog">Blog</Link>

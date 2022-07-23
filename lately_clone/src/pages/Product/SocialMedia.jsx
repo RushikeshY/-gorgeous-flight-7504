@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Product.module.css";
 import shap from "./images/shap.png"
+import { Link } from "react-router-dom";
 const SocialMedia = () => {
   return (
     <div>
@@ -45,9 +46,9 @@ const SocialMedia = () => {
           An all-in-one solution for social media marketing professionals and
           teams that starts with writing your social media posts for you
         </h2>
-        <button style={{ width: "230px" }} className={styles.btn}>
+      <Link to="/demo"> <button style={{ width: "230px" }} className={styles.btn}>
           REQUEST A FREE DEMO
-        </button>
+        </button></Link> 
       </div>
 
       <div style={{ backgroundColor: "#f4f4f4", height: "55rem" }}>

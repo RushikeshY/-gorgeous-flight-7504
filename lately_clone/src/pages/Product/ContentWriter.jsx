@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Product.module.css";
 import shap from "./images/shap.png";
+import { Link } from "react-router-dom";
 const ContentWriter = () => {
   return (
     <>
@@ -48,9 +49,9 @@ const ContentWriter = () => {
           hundreds of social media posts that will get you the highest
           engagement
         </h2>
-        <button style={{ width: "240px" }} className={styles.btn}>
+        <Link to="/demo"> <button style={{ width: "230px" }} className={styles.btn}>
           REQUEST A FREE DEMO
-        </button>
+        </button></Link> 
       </div>
 
       {/* ============================   Generate All the Social Media Content ============================ */}

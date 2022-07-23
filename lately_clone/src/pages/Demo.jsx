@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Checkbox, FormControl, FormLabel, Heading, HStack, Input, InputLeftElement, Select, Stack, Text } from '@chakra-ui/react'
 import {options as data} from "./options"
+import { Link } from 'react-router-dom'
 
 export const Demo = () => {
   return (
@@ -110,7 +111,7 @@ export const Demo = () => {
                 </Stack>
                </Box>
                <Box textAlign="left">
-                <Input width="100px" bg="green" color="whiteAlpha.900" type="submit"/>
+            <Link to="/">  <Input width="100px" bg="green" color="whiteAlpha.900" type="submit"/></Link>    
                </Box>
             </FormControl>
            </Box>
