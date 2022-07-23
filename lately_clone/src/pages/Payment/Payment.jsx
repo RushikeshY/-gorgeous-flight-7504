@@ -4,6 +4,7 @@ import "./Payment.css"
 import checked from "../Payment/images/checked.png"
 import youtube from "../Payment/images/youtube.jpg"
 import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 export const Payment = () => {
   // const[curr, setCurr]=useState(true)
   const [them, setThem]=useState(true)
@@ -443,7 +444,8 @@ setProf(true)
     <h3>By clicking 'Submit and Create Account,' you understand that your credit card will be charged the above amount after your 7-day trial has ended. If you cancel before your trial has ended, your credit card will not be charged.</h3>
    </div>
 
-<button style={{backgroundColor:"green",height:"30px",marginTop:"10px",width:"160px",padding:"5px",color:"white",borderRadius:"5px"}} onClick={handleContinue}>START FREE TRIAL</button>
+<Link to="/paymentSuccess"><button style={{backgroundColor:"green",height:"30px",marginTop:"10px",width:"160px",padding:"5px",color:"white",borderRadius:"5px"}} onClick={handleContinue}>START FREE TRIAL</button>
+</Link> 
 </div>
 
   </div>

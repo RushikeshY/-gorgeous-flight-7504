@@ -1,7 +1,7 @@
 import { Box, Button, Container, Grid, GridItem, Heading, HStack, Image, SimpleGrid, Stack, Text, useDisclosure, VStack, Wrap, WrapItem } from '@chakra-ui/react'
 import React from 'react'
 import {ChevronDownIcon} from "@chakra-ui/icons"
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 import styles from "../components/Nav.module.css"
 
 const Navbar = () => {
@@ -156,10 +156,11 @@ const Navbar = () => {
 
    <Box display="flex" gap="4">
    <Box className={styles.SL_BTN1}>
-        <Button border="1px solid #09c66b" fontSize="sm" fontWeight="semibold" w="120px" bg="ghostwhite" color="#09c66b">GET STARTED</Button>
+      <Link to="/signup">    <Button border="1px solid #09c66b" fontSize="sm" fontWeight="semibold" w="120px" bg="ghostwhite" color="#09c66b">GET STARTED</Button>
+      </Link>
     </Box>
     <Box className={styles.SL_BTN2}>
-        <Button variant={"ghost"}>LOG IN</Button>
+       <Link to={'/login'}> <Button  variant={"ghost"}>LOG IN</Button></Link>
     </Box>
    </Box>
    </Box>
