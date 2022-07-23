@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Product.module.css";
-import shap from "./images/shap.png"
 import { Link } from "react-router-dom";
+
+import shap from "./images/shap.png";
+
 const SocialMedia = () => {
   return (
     <div>
@@ -198,66 +200,63 @@ const SocialMedia = () => {
         </h1>
         <div className={styles.nineDiv}>
           <div>
-            <h2>Web Copy Generator</h2>
+            <h2>Automatic Post Prep</h2>
             <p>
-              Automatically turns all of your written longform content into MANY
-              dozens of social media posts.
+              Automatically creates the copy, image, tracking links and
+              corresponding audio or video clip for each post
             </p>
           </div>
           <div>
-            <h2>Messaging Guides</h2>
+            <h2>Scheduling</h2>
             <p>
-              Tell the AI your specific brand messaging guidelines and they’re
-              incorporated into the writing model.
+              Built in social media post scheduling makes it easy to do
+              everything in one place
             </p>
           </div>
           <div>
-            <h2>Transcripts</h2>
+            <h2>Approval Workflows</h2>
             <p>
-              The software transcribes your audio and video files then gives you
-              the fully converted transcript.
+              Review and approve every social media post before you schedule it
+              to be published
             </p>
           </div>
           <div>
-            <h2>Podcast Clip Generator</h2>
+            <h2>Tracking Links</h2>
             <p>
-              Turn your old podcasts into refreshed and on-brand social media
-              posts that link BACK to the original podcast.
+              Allows you to add unique tracking links for each post you track
+              engagement
             </p>
           </div>
           <div>
-            <h2>SEO & Keyword Enforcement</h2>
+            <h2>Publishing</h2>
             <p>
-              The AI writing model will ensure every post follows your specific
-              and optimal keyword guidelines.
+              Lately will publish your social media posts across all your
+              channels
             </p>
           </div>
           <div>
-            <h2>AI Writing Model</h2>
+            <h2>Parent-Child Accounts</h2>
+            <p>Syndicate and publish content across multiple accounts</p>
+          </div>
+          <div>
+            <h2>Calendar</h2>
             <p>
-              It learns from you! The more you upload, the more words and
-              phrases best resonate with your audience.
+              View all your past and scheduled social media posts in a single
+              view
             </p>
           </div>
           <div>
-            <h2>Video Clip Generator</h2>
+            <h2>Campaigns</h2>
             <p>
-              Automatically turn your old videos into fresh and on-brand social
-              posts that send traffic back to the original link.
+              Rollup and track social media posts by campaign for richer
+              reporting and analysis
             </p>
           </div>
           <div>
-            <h2>Voice & Tone</h2>
+            <h2>Integrations</h2>
             <p>
-              The guidelines ensure every post you share is on brand and has a
-              customized and consistent voice.
-            </p>
-          </div>
-          <div>
-            <h2>Audience Pre-Testing</h2>
-            <p>
-              Every post written by the content writer is pre-tested and based
-              on what the AI knows will resonate with your audience.
+              Take your social media posts created by Lately and publish them
+              through your existing Hubspot account
             </p>
           </div>
         </div>
@@ -275,9 +274,12 @@ const SocialMedia = () => {
             fontWeight: "300",
           }}
         >
-         <b>“Lately could EASILY replace other more pricey social media tools that
-          do nothing.</b>  I was skeptical and tried to break it but ended up saying
-          WOW – A.I. is here and it really works.”
+          <b>
+            “Lately could EASILY replace other more pricey social media tools
+            that do nothing.
+          </b>{" "}
+          I was skeptical and tried to break it but ended up saying WOW – A.I.
+          is here and it really works.”
         </h2>
 
         <div style={{ display: "flex" }}>
@@ -322,14 +324,12 @@ const SocialMedia = () => {
         </div>
       </div>
 
-    
       <div
         style={{
           backgroundColor: "#e6f6ef",
-        //   paddingTop: "1px",
+          //   paddingTop: "1px",
           paddingTop: "10px",
           paddingBottom: "40px",
-          
         }}
       >
         <h1
@@ -340,7 +340,7 @@ const SocialMedia = () => {
             lineHeight: "36px",
             marginTop: "70px",
             color: "#174c43",
-            paddingBottom:"30px"
+            paddingBottom: "30px",
           }}
         >
           Customers See Real Results From The Free Social Media <br /> Content
@@ -430,18 +430,23 @@ const SocialMedia = () => {
         </div>
       </div>
 
-
-
       <div className={styles.main}>
-      
         <div className={styles.right_text}>
           <img
             src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fea2eed7aaf965bf7857079_Quote_DkGreen.svg"
             alt="/"
           />
-          <p style={{ marginTop: "10px",width:"55%" }} className={styles.text_para}>
+          <p
+            style={{ marginTop: "10px", width: "55%" }}
+            className={styles.text_para}
+          >
             <i>
-              <b style={{fontWeight:"500"}}>I LOVE how Lately makes my life easier by helping me amplify my content.</b>  I can’t imagine writing a blog post or recording a podcast and not using Lately's A.I. to help craft my social media messages.”
+              <b style={{ fontWeight: "500" }}>
+                I LOVE how Lately makes my life easier by helping me amplify my
+                content.
+              </b>{" "}
+              I can’t imagine writing a blog post or recording a podcast and not
+              using Lately's A.I. to help craft my social media messages.”
             </i>
           </p>
           <h3
@@ -450,7 +455,7 @@ const SocialMedia = () => {
               fontSize: "19px",
               fontWeight: "600",
               marginBottom: "10px",
-              color:"#133d36"
+              color: "#133d36",
             }}
           >
             Michael Oberther
@@ -459,8 +464,12 @@ const SocialMedia = () => {
             Director of Business Development, Supporting Strategies
           </p>
         </div>
-        <div  className={styles.left_image}>
-          <img style={{marginLeft:"-200px",width:"800px",height:"100px"}} src={shap} alt="" />
+        <div className={styles.left_image}>
+          <img
+            style={{ marginLeft: "-200px", width: "800px", height: "100px" }}
+            src={shap}
+            alt=""
+          />
         </div>
       </div>
 
@@ -573,9 +582,6 @@ const SocialMedia = () => {
           </p>
         </div>
       </div>
-
-
-      
     </div>
   );
 };
