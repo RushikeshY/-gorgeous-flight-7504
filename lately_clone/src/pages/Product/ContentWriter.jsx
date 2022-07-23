@@ -1,11 +1,10 @@
 import React from "react";
 import styles from "./Product.module.css";
+import shap from "./images/shap.png";
 const ContentWriter = () => {
   return (
     <>
-
- 
-  {/* ===========================  TRY FOR FREE PARTt ======================================================*/}
+      {/* ===========================  TRY FOR FREE PARTt ======================================================*/}
 
       <div style={{ height: "26rem", backgroundColor: "#174c43" }}>
         <h2
@@ -54,8 +53,7 @@ const ContentWriter = () => {
         </button>
       </div>
 
-  
-  {/* ============================   Generate All the Social Media Content ============================ */}
+      {/* ============================   Generate All the Social Media Content ============================ */}
 
       <div style={{ backgroundColor: "#f4f4f4", height: "986px" }}>
         <div style={{ width: "48%", margin: "auto", paddingTop: "40px" }}>
@@ -91,7 +89,7 @@ const ContentWriter = () => {
         </div>
         <div style={{ height: "520px", width: "76%", margin: "auto" }}>
           <img
-            style={{ height: "410px", width: "90%", marginLeft: "5%" }}
+            style={{ height: "445px", width: "90%", marginLeft: "5%" }}
             src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fd7a906e969ea8c00a347d8_home-bowtie-content-to-gold.png"
             alt=""
           />
@@ -145,9 +143,8 @@ const ContentWriter = () => {
         </h2>
       </div>
 
-
       {/* =========================  Key Content Writer =========================================== */}
-    
+
       <div style={{ width: "90%", margin: "auto" }}>
         <h1
           style={{
@@ -228,6 +225,302 @@ const ContentWriter = () => {
           </div>
         </div>
       </div>
+
+      <div style={{ height: "18rem", backgroundColor: "#174c43" }}>
+        <h2
+          style={{
+            fontSize: "25px",
+            color: "white",
+            paddingLeft: "14rem",
+            paddingRight: "10rem",
+            paddingTop: "3rem",
+            lineHeight: "31px",
+            fontWeight: "300",
+          }}
+        >
+          “Lately is a <b>really powerful AI-powered platform</b> to add to your
+          team’s arsenal.”
+        </h2>
+
+        <div style={{ display: "flex" }}>
+          <img
+            style={{
+              height: "115px",
+              width: "115px",
+              borderRadius: "50%",
+              marginLeft: "14rem",
+              marginTop: "30px",
+            }}
+            src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/60ca659005d25a414c678974_1595443201477.jpeg"
+            alt=""
+          />
+          <div style={{ color: "white" }}>
+            {" "}
+            <h2
+              style={{
+                fontWeight: "500",
+                marginTop: "60px",
+                fontSize: "22px",
+                marginLeft: "24px",
+              }}
+            >
+              Colleen O'Brien{" "}
+            </h2>{" "}
+            <h2 style={{ marginLeft: "25px", fontSize: "18px", width: "100%" }}>
+              Chief Marketing Officer, M12 – Microsoft's Venture Fund
+            </h2>
+          </div>
+          <img
+            style={{
+              height: "30px",
+              width: "140px",
+              marginLeft: "100px",
+              marginTop: "90px",
+            }}
+            src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/60a41d21c40f51052e03e0a4_mslogo-p-500.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div style={{ backgroundColor: "#e6f6ef" }}>
+        <h1
+          style={{
+            paddingTop: "50px",
+            color: "#174c43",
+            textAlign: "center",
+            width: "75%",
+            marginBottom: "40px",
+            fontSize: "34px",
+            fontWeight: "700",
+            marginLeft: "10rem",
+            lineHeight: "36px",
+          }}
+        >
+          The Lately social media AI content writing <br /> solution is designed
+          for companies of every size
+        </h1>
+
+        <div
+          style={{
+            paddingTop: "1px",
+            marginTop: "30px",
+            paddingBottom: "40px",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              marginTop: "20px",
+              marginLeft: "10rem",
+              marginRight: "10rem",
+            }}
+          >
+            <div>
+              <img
+                style={{
+                  height: "170px",
+                  width: "170px",
+                  justifyContent: "center",
+                  marginLeft: "70px",
+                }}
+                src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fe2a107354a9a53719df14e_Icon_Circles_AI.svg"
+                alt=""
+              />
+              <div style={{ height: "80px", marginTop: "20px" }}>
+                <h2 className={styles.head2}>
+                  Artificial Social Intelligence Engine
+                </h2>
+              </div>
+
+              <p className={styles.para}>
+                Our AI constantly learns from your past social media posts and
+                builds a writing model based on what is most engaging for your
+                audience.
+              </p>
+              <button
+                style={{ marginLeft: "27%", marginTop: "40px" }}
+                className={styles.btn1}
+              >
+                LEARN MORE
+              </button>
+            </div>
+            <div style={{ marginLeft: "30px" }}>
+              <img
+                style={{ height: "170px", width: "170px", marginLeft: "120px" }}
+                src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fe2a106b3d5038e3fa9b20f_Icon_Circles_Parent_Child.svg"
+                alt=""
+              />
+              <div style={{ height: "80px", marginTop: "20px" }}>
+                <h2 className={styles.head2}>Parent-Child Accounts</h2>
+              </div>
+
+              <p className={styles.para}>
+                Make it easy to manage, publish and analyze all of your social
+                media content across multiple products, brands, regions,
+                franchises, and users all from one centralized place.
+              </p>
+              <button
+                style={{ marginLeft: "33%", marginTop: "40px" }}
+                className={styles.btn1}
+              >
+                LEARN MORE
+              </button>
+            </div>
+
+            <div>
+              <img
+                style={{ height: "170px", width: "170px", marginLeft: "120px" }}
+                src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fe2a1073d22be4b6068b0ff_Icon_Circles_Pricing.svg"
+                alt=""
+              />
+              <div style={{ height: "80px", marginTop: "20px" }}>
+                <h2 className={styles.head2}>Just-right Pricing</h2>
+              </div>
+
+              <p className={styles.para}>
+                Whether you’re just starting to scale your social media
+                marketing program or you’re ready to extend it across executives
+                and sales teams, we have an edition right-sized for your needs.
+              </p>
+              <button
+                style={{ marginLeft: "34%", marginTop: "40px" }}
+                className={styles.btn1}
+              >
+                LEARN MORE
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.main}>
+        <div className={styles.right_text}>
+          <img
+            src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fea2eed7aaf965bf7857079_Quote_DkGreen.svg"
+            alt="/"
+          />
+          <p style={{ marginTop: "10px" }} className={styles.text_para}>
+            <i>
+              <b style={{ fontWeight: "500" }}>“Overall Lately is a homerun.</b>{" "}
+              I love that I can create and schedule all my content in about 20
+              minutes per week.”
+            </i>
+          </p>
+          <h3
+            style={{
+              marginTop: "20px",
+              fontSize: "19px",
+              fontWeight: "600",
+              marginBottom: "10px",
+              color: "#133d36",
+            }}
+          >
+            Michael Oberther
+          </h3>
+          <p className={styles.dire_para}>
+            Director of Business Development, Supporting Strategies
+          </p>
+        </div>
+        <div className={styles.left_image}>
+          <img src={shap} alt="" />
+        </div>
+      </div>
+
+      <hr
+        style={{ width: "80%", margin: "auto", backgroundColor: "#333333" }}
+      />
+
+      <div style={{ marginTop: "30px", height: "32rem" }}>
+        <h1
+          style={{
+            fontSize: "42px",
+            fontWeight: "800",
+            color: "#133d36",
+            lineHeight: "44px",
+            textAlign: "left",
+            marginLeft:"12rem"
+          }}
+        >
+          AI-generated results that don’t muck around.
+        </h1>
+        <div className={styles.fourDiv}>
+          <div style={{display:"flex",marginTop:"10px"}}>
+            <img
+              src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/6002236421b928e945df4385_stat4.png"
+              alt=""
+            />
+            <div style={{marginLeft:"20px"}}>
+              <h2>Generate Social Content the New Way</h2>
+              <p>
+                Stop guessing what to write. Lately’s AI creates organic social
+                media content that it already knows your audience will love.
+              </p>
+            </div>
+          </div>
+          <div style={{display:"flex",marginTop:"10px"}}>
+            <img
+              src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/60022364b4348190da308534_stat3.png"
+              alt=""
+            />
+            <div style={{marginLeft:"20px"}}> 
+              <h2>Unlock the Power of Longform Content</h2>
+              <p>
+                Automatically atomize any longform video, audio, or text into
+                dozens of pre-tested social media posts designed to magnify
+                engagement.
+              </p>
+            </div>
+          </div>
+          <div style={{display:"flex",marginTop:"10px"}}>
+            <img
+              src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/600223648dc79dc41d78513f_stat2.png"
+              alt=""
+            />
+            <div style={{marginLeft:"20px"}}>
+              <h2>Social Selling on Steroids</h2>
+              <p>
+                Generate consistent, engaging content that converts high-quality
+                leads for employees who don’t know a dang thing about
+                copywriting.
+              </p>
+            </div>
+          </div>
+          <div style={{display:"flex",marginTop:"10px"}}>
+            <img
+              src="https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/600223649f9648efb7abb3d3_stat_1.png"
+              alt=""
+            /> 
+            <div style={{marginLeft:"20px"}}>
+              <h2>Game-Changing AI Insights</h2>
+              <p>
+                Learn the key words, phrases and values that make up the
+                messaging your brand’s audience actually wants to watch, hear or
+                read.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className={styles.LastDiv1}>
+        <h1
+          style={{
+            fontSize: "36px",
+            paddingTop: "80px",
+            color: "#133d36",
+            lineHeight: "44px",
+            marginTop: "70px",
+            width: "60%",
+            marginLeft: "20%",
+            fontWeight: "800",
+            textAlign: "center",
+          }}
+        >
+          Ready to start generating more effective social posts with AI?
+        </h1>
+        <button style={{ marginLeft: "44%" }} className={styles.btn1}>
+          TRY IT FREE
+        </button>
+      </div> */}
     </>
   );
 };

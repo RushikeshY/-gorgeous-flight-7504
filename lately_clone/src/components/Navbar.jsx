@@ -6,11 +6,15 @@ import styles from "../components/Nav.module.css"
 
 const Navbar = () => {
   return (
-    <>
+  <>
    <Container backgroundColor="#3f6b96" textAlign="center" color="whiteAlpha.900" maxW="2md" p={4}>
       <Text>This just in: Generate A.I. content for ANY Hootsuite account with Lately<span style={{textDecoration:"underline"}}>.Here's</span></Text>
    </Container>
-   <Box display="flex"  width="100%" alignItems="center" justifyContent="space-evenly">
+
+   <Box display="flex"  width="100%" alignItems="center" justifyContent="space-evenly" bg="whiteAlpha.900" >
+
+   <Box display="flex"  width="100%" alignItems="center" justifyContent="space-evenly" >
+
     <Box className={styles.menuContent} display="flex" alignItems="center" gap="5">
     <Box mr={10}>
         <Image boxSize="90px" src='https://global-uploads.webflow.com/5fd3c52ce5bc147a1f007ca4/5fd8f444e5106349b4570e0b_lately-nav-logo.svg'/>
@@ -20,7 +24,7 @@ const Navbar = () => {
         <ul>
             <li>
                 <HStack>
-                <Heading as="h4" fontWeight="semibold" size="sm">Products</Heading>
+               <Link to="/product">  <Heading as="h4" fontWeight="semibold" size="sm">Products</Heading> </Link>
                 <ChevronDownIcon/>
                 </HStack>
             <Box className={styles.menuSub}
@@ -32,7 +36,7 @@ const Navbar = () => {
             // m={4}
             marginLeft="-250"
              >
-           <Grid textAlign="left" templateColumns="repeat(4,300px)" gap={0.5}>
+           <Grid textAlign="left" templateColumns="repeat(4,300px)">
              <GridItem p={3} bg="#e8f8f2"  h='auto' >
                <Box>
                <Link to=''>
@@ -48,9 +52,9 @@ const Navbar = () => {
                 <Link to=''><Heading as="h6" size="sm" fontWeight="semibold">UpContent</Heading></Link>
                </Box>
              </GridItem>
-             <GridItem p={3} h='250px' pl={5}>
+             <GridItem p={3} h='250px' pl={5} bg="whiteAlpha.900">
                <Box>
-                <Link to=''><Heading as="h6" size="sm" fontWeight="semibold">AI CONTENT WRITER</Heading ></Link>
+                <Link to='/contentWriter'><Heading as="h6" size="sm" fontWeight="semibold">AI CONTENT WRITER</Heading ></Link>
                  <Text mt={1}>
                     Automatically writes and pretests content for your social media programs
                  </Text>  
@@ -63,9 +67,9 @@ const Navbar = () => {
                </Box>
              </GridItem>
 
-             <GridItem p={3} h='250px' >
+             <GridItem p={3} h='250px'bg="whiteAlpha.900">
                 <Box>
-                    <Link to=''><Heading as="h6" size="sm"fontWeight="semibold">SOCIAL MEDIA MARKETING</Heading></Link>
+                    <Link to='/socialMedia'><Heading as="h6" size="sm"fontWeight="semibold">SOCIAL MEDIA MARKETING</Heading></Link>
                     <Text mt={1}>
                         Everything you need to scale your social media marketing<br></br> program
                     </Text>
@@ -77,7 +81,7 @@ const Navbar = () => {
              </GridItem>
              <GridItem p={3} h='250px' bg="#e8f8f2" shadow="">
                 <Box>
-                    <Link to=''><Heading as="h6" size="sm" fontWeight="semibold">VIDEO AUTOGENERATOR</Heading></Link>
+                    <Link to='/'><Heading as="h6" size="sm" fontWeight="semibold">VIDEO AUTOGENERATOR</Heading></Link>
                     <Text mt={1}>
                         Turn your company videos into bite-sized social media videos clips and social media posts
                     </Text>
@@ -102,16 +106,16 @@ const Navbar = () => {
            <Heading as="h4" size="sm" fontWeight="semibold">Resources</Heading>
            <ChevronDownIcon/>
            </HStack>
-       <Box className={styles.menuSub} shadow="lg" p={2} width="250px" height="auto" position="absolute" display="none">
+       <Box className={styles.menuSub} bg="whiteAlpha.900" p={2} width="250px" height="auto" position="absolute" display="none">
          <Box textAlign="left">
             <Stack mt={2}>
-            <Link to="">Customer Stories</Link>
+            <Link to="/customer_stories">Customer Stories</Link>
             <Link to="">Lately Office Hours Sign-up</Link>
-            <Link to="">Lately LIVE Replays</Link>
+            <Link to="/liveReplays">Lately LIVE Replays</Link>
             <Link to="">How to Position ANYTHING</Link>
-            <Link to="">Ebooks</Link>
-            <Link to="">Blog</Link>
-            <Link to="">Help Center</Link>
+            <Link to="/ebook">Ebooks</Link>
+            <Link to="/blog">Blog</Link>
+            <Link to="/helpCenter">Help Center</Link>
             </Stack>
          </Box >
         </Box>
@@ -126,7 +130,7 @@ const Navbar = () => {
           <Heading as="h4" size="sm" fontWeight="semibold">Company</Heading>
           <ChevronDownIcon/>
        </HStack>
-       <Box className={styles.menuSub} p={2}  shadow="lg" width="250px" height="auto" position="absolute" display="none" >
+       <Box className={styles.menuSub} p={2}  bg="whiteAlpha.900" width="250px" height="auto" position="absolute" display="none" >
           <Box textAlign="left">
           <Stack mt={2}>
             <Link to="">About</Link>
@@ -157,8 +161,12 @@ const Navbar = () => {
     </Box>
    </Box>
    </Box>
-   
+   </Box>
+
   </>
+
+
+
   )
 }
 
