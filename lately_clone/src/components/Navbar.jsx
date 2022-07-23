@@ -6,7 +6,7 @@ import styles from "../components/Nav.module.css"
 
 const Navbar = () => {
   return (
-    <>
+  <>
    <Container backgroundColor="#3f6b96" textAlign="center" color="whiteAlpha.900" maxW="2md" p={4}>
       <Text>This just in: Generate A.I. content for ANY Hootsuite account with Lately<span style={{textDecoration:"underline"}}>.Here's</span></Text>
    </Container>
@@ -81,7 +81,7 @@ const Navbar = () => {
              </GridItem>
              <GridItem p={3} h='250px' bg="#e8f8f2" shadow="">
                 <Box>
-                    <Link to=''><Heading as="h6" size="sm" fontWeight="semibold">VIDEO AUTOGENERATOR</Heading></Link>
+                    <Link to='/'><Heading as="h6" size="sm" fontWeight="semibold">VIDEO AUTOGENERATOR</Heading></Link>
                     <Text mt={1}>
                         Turn your company videos into bite-sized social media videos clips and social media posts
                     </Text>
@@ -162,7 +162,11 @@ const Navbar = () => {
    </Box>
    </Box>
    </Box>
+
   </>
+
+
+
   )
 }
 
