@@ -39,7 +39,7 @@ export const fetchData =(dispatch,loginData)=>{
     })
     .catch((e)=>{
         console.log(e) ;
-        alert("wrong credential...")
+        // alert("wrong credential...")
     })
 }
 
@@ -63,7 +63,7 @@ export const registerData =(dispatch,userData)=>{
     })
     .catch((e)=>{
         console.log(e)
-        alert("Wrong Credential...!!")
+        // alert("")
     })
 }
 

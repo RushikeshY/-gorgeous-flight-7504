@@ -1,11 +1,14 @@
 import React from 'react'
 import { Box, Checkbox, FormControl, FormLabel, Heading, HStack, Input, InputLeftElement, Select, Stack, Text } from '@chakra-ui/react'
 import {options as data} from "./options"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export const Demo = () => {
-
-
+const navigate = useNavigate()
+const handleClick=()=>{
+    alert("Your response has been recorded, we will contact you soon")
+    navigate("/")
+}
   return (
     <>
       <Box bg="#144039" padding="6%">
@@ -113,7 +116,7 @@ export const Demo = () => {
                 </Stack>
                </Box>
                <Box textAlign="left">
-            <Link to="/">  <Input width="100px" bg="green" color="whiteAlpha.900" type="submit" onClick={alert("We will Contact you soon ")}/></Link>    
+          <Input width="100px" bg="green" color="whiteAlpha.900" type="submit" onClick={handleClick}/>
                </Box>
             </FormControl>
            </Box>

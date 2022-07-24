@@ -77,7 +77,7 @@ setProf(true)
 
      <Box style={{margin:"10px", color:"rgb(48,68,85)"}}>
      <p>Credit or Debit Card*</p>
-     <input className='fw13-cradInp' type="number" name='card' placeholder='Card number'  onChange={handleChange}  />
+     <input className='fw13-cradInp' type="number" name='card' placeholder='Card number' maxLength= "16" onChange={handleChange}  />
      <input className='fw13-cradInp' name="date" type="month" onChange={handleChange} />
      </Box>
  <Box style={{margin:"10px" }}>
@@ -99,7 +99,8 @@ setProf(true)
 <label>Phone Number*</label>
      <br/>
      <Input
- isInvalid
+     maxLength="10"
+ isInvalid 
  name='phone'
  errorBorderColor='red.300'
  focusBorderColor='pink.400'
