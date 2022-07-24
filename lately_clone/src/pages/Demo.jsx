@@ -8,7 +8,7 @@ export const Demo = () => {
       <Box bg="#144039" padding="6%">
         <Heading size="2xl" color="whiteAlpha.900" as="h1">Request a Demo</Heading>
     </Box>
-    <Box bg="#e8f8f2 " height="400px">
+    <Box bg="#e8f8f2 " height="auto">
         <Box display="flex" 
         width="80%" 
         padding="2%" 
