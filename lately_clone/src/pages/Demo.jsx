@@ -7,7 +7,7 @@ export const Demo = () => {
 
     const navigate = useNavigate();
     const handleClick = ()=>{
-        alert("Your response has been recorder, we will contact you soon.");
+        alert("Your response has been recorded, we will contact you soon.");
         navigate("/")
     }
 
