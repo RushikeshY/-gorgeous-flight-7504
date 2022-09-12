@@ -3,7 +3,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
-import { fetchData } from '../../redux/actions';
+import { fetchData } from '../../Redux/actions';
 
 const Signin = () => {
 

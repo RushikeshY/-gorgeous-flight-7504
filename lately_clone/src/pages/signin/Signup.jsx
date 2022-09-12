@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { registerData } from '../../redux/actions';
+import { registerData } from '../../Redux/actions';
 
 
 const Signup= () => {
